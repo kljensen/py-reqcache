@@ -117,10 +117,10 @@ if __name__ == '__main__':
         )
         print msg
 
-    reqcache = ReqCache("test", "memory")
+    mycache = ReqCache("test", "memory")
 
-    r = requests.get('http://github.com', hooks=reqcache.hooks)
+    r = requests.get('http://github.com', hooks=mycache.hooks)
     explain_cache_result(r)
 
-    r = requests.get('http://github.com', hooks=reqcache.hooks)
+    r = requests.get('http://github.com', hooks=mycache.hooks)
     explain_cache_result(r)
