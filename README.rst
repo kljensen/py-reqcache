@@ -1,4 +1,4 @@
-py-reqcache: Caching for Python's Request Package
+Caching for Python's Request Package
 =========================
 
 py-reqcache is a Python_ package that provides caching for
@@ -12,6 +12,7 @@ monkeypatching.
 Example usage
 ----------
 
+::
     import requests
     import reqcache
 
@@ -32,8 +33,6 @@ Contribute
 #. Submit and create issues on github
 
 
-References
-----------
 .. _Python: http://www.python.org/
 .. _Requests: http://www.python-requests.org
 .. _Requests-Cache: https://github.com/reclosedev/requests-cache
